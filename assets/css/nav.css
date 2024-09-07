@@ -1,0 +1,59 @@
+/* Style pour la navbar */
+.glass-navbar {
+    background: rgba(255, 255, 255, 0.1); /* Couleur de fond semi-transparente */
+    backdrop-filter: blur(10px); /* Effet de verre */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Bordure semi-transparente */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-section {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.navbar-section a.nav-link {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.navbar-section a.nav-link:hover {
+    color: #00e0ff;
+}
+
+.navbar-section.auth a.btn {
+    margin-left: 0.5rem;
+}
+
+/* Style des boutons de connexion */
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #00e0ff;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #00e0ff;
+}
+
+.btn-light:hover {
+    background-color: #ddd;
+}
+
+/* Styles pour la navbar container */
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

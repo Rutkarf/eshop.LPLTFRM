@@ -5,8 +5,8 @@ include "includes/_head.php";
 ?>
 
 
-<body>
 
+<body>
     <?php
     // Inclut la barre de navigation
     include "includes/_nav.php";
